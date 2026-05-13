@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RaithaVartha</string>
+    <string name="news_title">Raitha Vartha / ರೈತ ವಾರ್ತೆ</string>
+    <string name="switch_to_kannada">ಕನ್ನಡ</string>
+    <string name="switch_to_english">English</string>
+    <string name="refresh">Refresh</string>
+</resources>
