@@ -1,64 +1,67 @@
-🌾 Raitha Vartha – AI Farming Expert System
+🌾 Raitha Vartha – AI Farming Expert Android App
 📌 Project Overview
 
-Raitha Vartha is an AI-powered agricultural assistant designed to help farmers and users get real-time guidance on crop selection, disease detection support, market insights, and smart farming suggestions.
+Raitha Vartha is an AI-powered Android application designed to assist farmers and users with smart agricultural guidance.
 
-The system acts like a digital agricultural expert, providing reliable, simple, and accessible farming advice to improve productivity and reduce crop losses.
+The app provides crop suggestions, farming tips, disease awareness support, and market insights in a simple mobile interface.
+
+It acts as a digital farming assistant inside a mobile app, making agriculture knowledge easily accessible anytime and anywhere.
 
 🚀 Features
-🌱 Crop Recommendation System based on soil and climate conditions
-🦠 Plant Disease Awareness & Solution Suggestions (AI-assisted)
-📊 Market Price Insights for agricultural crops
-🤖 AI Chatbot for farmer queries (Raitha Expert)
-📍 Region-based farming suggestions (Karnataka-focused)
-📱 Simple and user-friendly web interface
-🔐 Secure login and user management (if implemented)
+🌱 Crop Recommendation based on soil and region
+🦠 Plant Disease Awareness and solution suggestions
+📊 Market price information for crops
+🤖 AI-based farming assistant (chatbot support if implemented)
+📍 Karnataka-based regional farming suggestions
+📱 Simple and user-friendly Android UI
+🔐 User login and authentication (if included)
 🛠️ Tech Stack
-Frontend: HTML, CSS, JavaScript
-Backend: Python (Flask)
-Database: MongoDB / SQLite
-AI/ML: Scikit-learn, Pandas, NumPy (if used)
-Tools: VS Code, Postman, Git & GitHub
+Language: Java / Kotlin
+IDE: Android Studio
+UI Design: XML
+Database: Firebase / SQLite (based on your project)
+AI/Logic: Machine Learning / Rule-based system (if used)
+Tools: Android Emulator, Git & GitHub
 📂 Project Structure
 RaithaVartha/
 │
-├── static/              # CSS, images, JS files
-├── templates/           # HTML pages
-├── models/              # ML models (if any)
-├── app.py               # Main Flask application
-├── requirements.txt     # Dependencies
-├── database.py          # DB connection file
+├── app/
+│   ├── java/                 # Java/Kotlin source code
+│   ├── res/                  # Layouts, drawables, UI files
+│   ├── AndroidManifest.xml
+│
+├── gradle/                  # Gradle configuration
+├── build.gradle
 └── README.md
 ⚙️ Installation & Setup
 1. Clone the repository
 git clone https://github.com/shamitha-source/RaithaVartha.git
-2. Navigate to project folder
-cd RaithaVartha
-3. Create virtual environment (optional)
-python -m venv venv
-venv\Scripts\activate   # Windows
-4. Install dependencies
-pip install -r requirements.txt
-5. Run the application
-python app.py
-6. Open in browser
-http://127.0.0.1:5000/
+2. Open in Android Studio
+Open Android Studio
+Click Open Existing Project
+Select the project folder
+3. Sync Gradle
+Wait for Gradle sync to complete
+Download required dependencies
+4. Run the App
+Connect emulator or physical device
+Click ▶ Run button
 🎯 Project Objective
 
-The main objective of Raitha Vartha is to support farmers using AI-based decision-making tools that improve agricultural productivity, reduce crop loss, and provide smart farming insights.
+The main objective of Raitha Vartha is to provide farmers with an intelligent mobile assistant that supports better agricultural decision-making and improves productivity through technology.
 
 🌍 Real-World Impact
-Helps farmers make better crop decisions
-Reduces dependency on manual agricultural advice
-Improves awareness of crop diseases
-Supports digital transformation in agriculture
+Helps farmers get instant agricultural guidance
+Reduces dependency on manual consultation
+Improves awareness about crop diseases
+Promotes smart farming using mobile technology
 🔮 Future Improvements
-🌦️ Real-time weather API integration
-📱 Mobile application (Android version)
-🎙️ Voice-based farmer assistant
-🌐 Kannada language AI chatbot
-🧠 Advanced ML-based disease prediction
+🌦️ Weather API integration for farming suggestions
+🎙️ Voice-based farming assistant
+🌐 Kannada language support
+📡 Real-time crop disease detection using AI
+📱 Full offline mode support
 👩‍💻 Developer
 Name: Shamitha
-Project: Raitha Vartha – AI Farming Expert System
+Project: Raitha Vartha – AI Farming Expert Android App
 Purpose: Internship Submission Project
